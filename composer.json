@@ -1,0 +1,19 @@
+{
+    "name": "lilkianie/pos-system",
+    "description": "POS Cashiering System",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*",
+        "ext-pgsql": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-session": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
